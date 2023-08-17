@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList.js";
 import Footer from "./components/Footer.js";
 import AddItem from "./components/AddItem";
-
 
 
 function App() {
@@ -14,9 +12,7 @@ function App() {
       price: 130,
       name: "Rice",
       quantity: 0,
-    },
-    
-    
+    },    
   ];
 
   let [productList, setProductList] = useState(products);

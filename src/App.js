@@ -12,7 +12,12 @@ function App() {
       price: 130,
       name: "Rice",
       quantity: 0,
-    },    
+    },
+    {
+      price: 160,
+      name: "Chicken",
+      quantity: 0,
+    },       
   ];
 
   let [productList, setProductList] = useState(products);

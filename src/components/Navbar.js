@@ -9,7 +9,7 @@ class Navbar extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <b><i>Apni Dukan</i></b>
+              <b><i>Apki Apni Dukan</i></b>
             </a>
             <button
               className="navbar-toggler"

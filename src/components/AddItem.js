@@ -11,19 +11,19 @@ class AddItem extends React.Component {
   render() {
     return (
       <form
-        className="row mb-5"
+        className="col mb-5"
         onSubmit={(e) => {
           e.preventDefault();
           this.props.addItem(this.state.productName,Number(this.state.productPrice));
         }}
       >
-        <div className="mb-3 col-4">
+        <div className="mb-4 col-12">
           <label htmlFor="inputName" className="form-label">
             ProductName
           </label>
           <input
             type="text"
-            className="form-control"
+            className="form-control bg-light"
             id="inputName"
             aria-describedby="name"
             name="productName"
@@ -33,13 +33,13 @@ class AddItem extends React.Component {
             value={this.state.productName}
           />
         </div>
-        <div className="mb-3 col-4">
-          <label htmlFor="inputPrice" className="form-label">
+        <div className="mb-3 col-12">
+          <label htmlFor="inputPrice" className="form-label text-black ">
             Rate
           </label>
           <input
             type="number"
-            className="form-control"
+            className="form-control bg-light"
             id="price"
             name="productPrice"
             onChange={(e) => {
@@ -48,7 +48,7 @@ class AddItem extends React.Component {
             value={this.state.productPrice}
           />
         </div>
-        <button type="submit" className="btn btn-primary col-4">
+        <button type="submit" className="btn btn-primary mt-4 col-4">
           AddItem
         </button>
       </form>

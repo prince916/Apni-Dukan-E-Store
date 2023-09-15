@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Product(props) {
-  return ( 
+  return (
     <div className="row mt-3">
       <div className="col-5">
         <h2>

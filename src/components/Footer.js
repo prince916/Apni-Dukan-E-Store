@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer(props) {
   return (
-    <div className="row fixed-bottom">
+    <div className="row bottom-fixed mt-4">
       <button
         className="btn btn-danger col-2"
         onClick={() => {

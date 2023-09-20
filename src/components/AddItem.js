@@ -48,7 +48,7 @@ class AddItem extends React.Component {
             value={this.state.productPrice}
           />
         </div>
-        <button type="submit" className="btn btn-primary mt-4 col-4">
+        <button type="submit" className="btn btn-primary mt-5 col-4">
           AddItem
         </button>
       </form>

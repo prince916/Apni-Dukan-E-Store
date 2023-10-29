@@ -23,7 +23,7 @@ class AddItem extends React.Component {
           </label>
           <input
             type="text"
-            className="form-control bg-light"
+            className="form-control bg-dark text-light"
             id="inputName"
             aria-describedby="name"
             name="productName"
@@ -39,7 +39,7 @@ class AddItem extends React.Component {
           </label>
           <input
             type="number"
-            className="form-control bg-light"
+            className="form-control bg-dark text-light"
             id="price"
             name="productPrice"
             onChange={(e) => {
@@ -48,7 +48,7 @@ class AddItem extends React.Component {
             value={this.state.productPrice}
           />
         </div>
-        <button type="submit" className="btn btn-primary mt-5 col-4">
+        <button type="submit" className="btn btn-danger mt-5 col-4">
           AddItem
         </button>
       </form>

@@ -1,6 +1,8 @@
 # This is basically a biling website for E-commerce website.
 
 # Here are some new Updates 
+1. New Background
+2. new Features
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

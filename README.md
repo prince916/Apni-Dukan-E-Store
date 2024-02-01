@@ -1,4 +1,4 @@
-# This is basically a E-commerce Billing Website.
+# This is basically a E-commerce Billing Website for Reatail Shops.
 
 # Here are some new Updates 
 1. New Background

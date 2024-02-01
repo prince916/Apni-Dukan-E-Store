@@ -1,4 +1,6 @@
 # This is basically a E-commerce Billing Website for Reatail Shops.
+# Main functionality of this website is billing of the products bought by the customer.
+
 
 # Here are some new Updates 
 1. New Background
